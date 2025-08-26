@@ -4,6 +4,10 @@
 
 package com.mycompany.if2000_introprogra;
 
+import logic.Ejercicios_semana2_PracticaEnClase;
+
+
+
 /**
  *
  * @author estudiante
@@ -11,12 +15,18 @@ package com.mycompany.if2000_introprogra;
 public class IF2000_IntroProgra {
 
     public static void main(String[] args) {
-       
-        int age = 22;
-        String name = " Josimar ";
         
-        System.out.println("Hello World ");
-        System.out.println("Name " + name);
-        System.out.println("age " + age);
-    }
+        Ejercicios_semana2_PracticaEnClase ej;
+         ej = new Ejercicios_semana2_PracticaEnClase();
+          ej.EjerPiramide(5);
+          ej.Ejer_en_Clase_A(5);
+          ej.Ejer_en_Clase_B(5);
+          ej.Ejer_en_Clase_C(5);
+          ej.Ejer_en_Clase_D(5);
+        }
+    
+    
+    
+    
+ 
 }
